@@ -1,0 +1,41 @@
+* {
+  font-family: "Montserrat";
+}
+
+#title {
+  text-align: center;
+  font-size: large;
+}
+
+#break {
+  background-color: black;
+  width: 75vw;
+  height: 5px;
+  margin: auto;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 30px;
+  width: 80vw;
+}
+
+#control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#control button {
+  width: 150px;
+  height: 30px;
+}
+
+#sketchbox {
+  display: grid;
+  border: 2px solid black;
+  width: 512px;
+  height: 512px;
+}
